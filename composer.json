@@ -1,0 +1,10 @@
+{
+    "require": {
+        "geoip2/geoip2": "~2.0"
+    },
+    "scripts": {
+        "geoip-update": [
+            "curl http://geolite.maxmind.com/download/geoip/database/GeoIP2-ISP.mmdb.gz | gunzip > GeoIP2-ISP.mmdb"
+        ]
+    }
+}
